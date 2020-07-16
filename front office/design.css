@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Vagnotie;
+    src: url(vagnotie.ttf);
+}
+
+@font-face {
+    font-family: chapaza;
+    src: url(Chapaza.ttf);
+}
+
+html {
+    font-family:"chapaza";
+    font-size: 15px;
+    background-color: #f3ecd5;
+}
+
+body {
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+    padding: initial;
+    padding-left: initial;
+    
+}
+
+header {
+    background-image: url(organisation-voyage.jpg);
+    height: 400px;
+    
+
+}
+h1{
+    font-family:"Vagnotie";
+    font-size: 80px;
+    color: #387b96d8;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 25px;
+}
+nav {
+    background-color: rgb(190, 220, 245);
+    padding-right: 100px;
+    margin: 10px;
+    font-weight: bold;
+    
+    
+
+}
+a:hover {
+    color: #f3c2f1;
+    text-decoration:#f3c2f1;
+    font-weight: bolder;
+    }
+
+
+h2 {
+   font-size: 30px;
+  color: rgb(171, 189, 247);
+  -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: rgb(51, 70, 116);
+  
+}
+#block1 {
+    align-items: center;
+    text-align: initial;
+    padding: 10px;
+}
+
+
+
+table {
+    width: 810 px;
+                align-content: center;
+                text-align: center;
+                vertical-align: middle;
+                width: 50%;
+
+    }
+fieldset {
+   padding: 30px;
+    width: 250px;
+    vertical-align: middle;
+    margin: 0 auto;
+    font-family: "OpenSans-Regular";
+    border-color: #d377e6;
+    
+} 
+
+h3 {
+    text-align: center;
+    color: rgb(190, 220, 245);
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: rgb(8, 51, 167);
+    margin-bottom: 10px;
+    font-size: 40px;
+    position: absolute; top: 910px;right: 900px;
+}
+
+#block2 {
+   position: absolute; top: 930px; right: 500px;
+}
+
+#block3 {
+    padding-bottom: 30px;
+    position: absolute; top: 930px; right: 100px;
+}
+
+#block4 {
+    text-align:center;
+}
+
+.Image {
+    display: inline-block;
+}
